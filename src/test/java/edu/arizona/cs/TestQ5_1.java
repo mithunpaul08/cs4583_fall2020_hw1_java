@@ -5,20 +5,20 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class TestQ1 {
+public class TestQ5_1 {
 
     @Test
     public void testDocsAndScores() {
-        String inputFileFullPath="input.txt";
-        QueryEngine objQueryEngine = new QueryEngine(inputFileFullPath);
+        String inputFileFullPath="src/main/resources/Docs.txt";
         try {
-            String[] common_query = {"information", "retrieval"};
-            List<ResultClass> ans1 = objQueryEngine.runQ1(common_query);
+            String query = "schizophrenia AND drug";
+            InvertedIndex objInvertedIndex = new InvertedIndex(inputFileFullPath);
+            String[] ans_q5_1 = objInvertedIndex.runQ5_2(query);
             String[] doc_names_q1 = {"Doc1", "Doc2"};
             int counter1 = 0;
-            assertEquals((doc_names_q1.length) , ans1.size());
-            for (ResultClass docs : ans1) {
-                assertEquals(doc_names_q1[counter1], docs.DocName.get("docid"));
+            assertEquals((doc_names_q1.length) , ans_q5_1.length);
+            for (String docs : ans_q5_1) {
+                assertEquals(doc_names_q1[counter1], ans_q5_1[counter1]);
                 counter1 = counter1 + 1;
             }
         }
