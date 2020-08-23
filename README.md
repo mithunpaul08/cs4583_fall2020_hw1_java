@@ -5,7 +5,7 @@ you expect to use for this assignment.
 Minimally, you should install:
 
 * [git](https://git-scm.com/downloads)
-* [Java (version oraclejdk8 or higher)](https://www.java.com/en/)
+* [Java](https://www.java.com/en/) and [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)(version oraclejdk8 or higher)
 * [Lucene](http://lucene.apache.org/)
 * [Maven](https://maven.apache.org/)
 * [Surefire](https://maven.apache.org/surefire/maven-surefire-plugin/)
