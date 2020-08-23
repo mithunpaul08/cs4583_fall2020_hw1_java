@@ -13,7 +13,7 @@ public class TestQ5 {
         try {
             String query = "schizophrenia AND drug";
             InvertedIndex objInvertedIndex = new InvertedIndex(inputFileFullPath);
-            String[] ans_q5_1 = objInvertedIndex.runQ5_2(query);
+            String[] ans_q5_1 = objInvertedIndex.runQ5_1(query);
             String[] doc_names_q1 = {"Doc1", "Doc2"};
             int counter1 = 0;
             assertEquals((doc_names_q1.length) , ans_q5_1.length);
@@ -65,7 +65,7 @@ public class TestQ5 {
         try {
             String query = "(drug OR treatment) AND schizophrenia";
             InvertedIndex objInvertedIndex = new InvertedIndex(inputFileFullPath);
-            String[] ans_q5_3 = objInvertedIndex.runQ5_2(query);
+            String[] ans_q5_3 = objInvertedIndex.runQ5_3(query);
             String[] doc_names_q3 = {"Doc1", "Doc2", "Doc4"};
             int counter1 = 0;
             assertEquals((doc_names_q3.length) , ans_q5_3.length);
