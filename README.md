@@ -28,9 +28,8 @@ just created. Your command must be similar to :
 
 # Write your code
 
-You will implement one function each for each of the 4 qns, Eg:`runQ13a()` inside 
-the class `QueryEngine`. These functions should return the documents in the right order (atleast the top 2) , as asked in the question, as Lucene Documents. 
-A sample return function is also provided for your reference. 
+You will implement one function each for each of the 4 qns, Eg:`runQ5_1()` inside 
+the class `InvertedIndex`. These functions should return the documents as asked in the question, as a String array. 
 
 Also, you **should not edit** these files:
 - `runAllTests.sh`
