@@ -33,7 +33,6 @@ You will implement one function each for each of the 4 qns, Eg:`runQ5_1()` insid
 the class `InvertedIndex`. These functions should return the documents as asked in the question, as a String array. 
 
 Also, you **should not edit** these files:
-- `runAllTests.sh`
 - `.travis.yml`
 - `src/test/resources/Docs.txt`
 - `src/test/java/edu/arizona/cs/Test_q5.java`
@@ -88,10 +87,12 @@ These are the same as `mvn test`.
 So if your code passed `mvn test` in your machine, 
 it’s highly likely that it will pass in github. Nevertheless 
 you should make sure that you see a green tick mark or a message 
-saying “All Checks Have Passed”. Else close the pull request, fix the errors, and raise another pull request.
+saying “All Checks Have Passed”. 
+
+If your test cases are failing, click on the link which says `details` and find out what is causing the issue or which test case is not passing. Once you have identified that, close the pull request, fix the errors, and raise another pull request.
 **Do not merge the pull request.**
 
-Your instructor will grade the code of this pull request. 
+Your instructor will grade the code off this pull request. 
 Pull requests submitted after the deadline won’t be considered.
 
 # Grading
@@ -99,4 +100,4 @@ Pull requests submitted after the deadline won’t be considered.
 Qn5 of this assignment will be graded primarily on their ability to pass the tests that
 have been provided to you on github after the pull request.
 Assignments that pass all, and with the corresponding code implementing the correct logic, will receive at least 90% of the
-possible points.
+possible points. Rest of the points will be dependant on the readability and quality of the code.
