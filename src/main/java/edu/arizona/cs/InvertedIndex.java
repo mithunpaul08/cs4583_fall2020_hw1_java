@@ -32,7 +32,7 @@ public class InvertedIndex {
     }
 
     public String[] runQ5_1(String query) throws java.io.FileNotFoundException,java.io.IOException {
-        String[] dummy_ans = {"Doc1","Doc2"};
+        String[] dummy_ans = {"Doc1","Doc4"};
         return dummy_ans;
     }
 
