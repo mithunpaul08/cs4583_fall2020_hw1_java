@@ -24,6 +24,7 @@ GitHub repository to hold your work.
 just created. Your command must be similar to :
    ```
    git clone -b <branch> https://github.com/cs4583_fall2020_hw1_java/cs-<your-username>.git
+   git checkout lastname_firstname_dev
    ```
 
 # Write your code
