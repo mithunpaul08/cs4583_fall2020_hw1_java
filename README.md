@@ -45,25 +45,25 @@ Also, you **should not edit** these files:
 Tests have been provided for you in the `src/test/java/edu/arizona/cs/test_q5.java` file.
 To run all the provided tests, run the ``mvn test`` script from the directory containing `pom.xml`
 
-If your code passes the test case, you will see output like:
+If your code passes the test case, you will see an output similar to:
 ```
-INFO] -------------------------------------------------------
+[INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running edu.arizona.cs.LuceneTest
-value of doc score is0.0
-value of doc score is0.0
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in edu.arizona.cs.LuceneTest
-[INFO]
+[INFO] Running edu.arizona.cs.TestQ5
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in edu.arizona.cs.TestQ5
+[INFO] 
 [INFO] Results:
-[INFO]
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-[INFO]
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.486 s
-[INFO] Finished at: 2019-03-06T16:21:49-07:00
+[INFO] Total time:  4.037 s
+[INFO] Finished at: 2020-08-23T15:06:13-07:00
+[INFO] ------------------------------------------------------------------------
+
 
 ```
 
