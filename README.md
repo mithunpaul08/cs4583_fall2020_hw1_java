@@ -35,7 +35,7 @@ Also, you **should not edit** these files:
 - `runAllTests.sh`
 - `.travis.yml`
 - `src/test/resources/Docs.txt`
-- `src/test/java/edu/arizona/cs/test_q5.java`
+- `src/test/java/edu/arizona/cs/Test_q5.java`
 
 **Note: The file `src/test/resources/Docs.txt` is the input file you must use (or would have started using) as per hw3 guidelines. Please don't edit it.**
 
@@ -66,6 +66,8 @@ value of doc score is0.0
 [INFO] Finished at: 2019-03-06T16:21:49-07:00
 
 ```
+
+Note: doing `mvn clean` from time to time is a good habit
 
 # Submit your code
 
