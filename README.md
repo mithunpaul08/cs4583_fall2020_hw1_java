@@ -35,7 +35,7 @@ the class `InvertedIndex`. These functions should return the documents as asked 
 Also, you **should not edit** these files:
 - `.travis.yml`
 - `src/test/resources/Docs.txt`
-- `src/test/java/edu/arizona/cs/Test_q5.java`
+- `src/test/java/edu/arizona/cs/TestQ5.java`
 
 **Note: The file `src/test/resources/Docs.txt` is the input file you must use (or would have started using) as per hw3 guidelines. Please don't edit it.**
 
