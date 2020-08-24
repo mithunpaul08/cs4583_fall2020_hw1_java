@@ -5,10 +5,8 @@ you expect to use for this assignment.
 Minimally, you should install:
 
 * [git](https://git-scm.com/downloads)
-* [Java](https://www.java.com/en/) and [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) (version oraclejdk9 or higher)
-* [Lucene](http://lucene.apache.org/)
+* [Java](https://www.java.com/en/)8 or higher)
 * [Maven](https://maven.apache.org/)
-* [Surefire](https://maven.apache.org/surefire/maven-surefire-plugin/)
 
 # Check out a new branch
 
@@ -43,7 +41,7 @@ Also, you **should not edit** these files:
 # Test your code
 
 Tests have been provided for you in the `src/test/java/edu/arizona/cs/test_q5.java` file.
-To run all the provided tests, run the ``mvn test`` script from the directory containing `pom.xml`
+To run all the provided tests, run the ``mvn test`` script from the top project directory which contains a file named `pom.xml`
 
 If your code passes the test case, you will see an output similar to:
 ```
@@ -99,5 +97,5 @@ Pull requests submitted after the deadline won’t be considered.
 
 Qn5 of this assignment will be graded primarily on their ability to pass the tests that
 have been provided to you on github after the pull request.
-Assignments that pass all, and with the corresponding code implementing the correct logic, will receive at least 90% of the
+Assignments that pass all, and with the corresponding code implementing the correct logic, will receive at least 95% of the
 possible points. Rest of the points will be dependant on the readability and quality of the code.
