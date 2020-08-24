@@ -62,8 +62,8 @@ If your code passes the test case, you will see an output similar to:
 [INFO] Finished at: 2020-08-23T15:06:13-07:00
 [INFO] ------------------------------------------------------------------------
 
-
 ```
+
 
 Note: doing `mvn clean` from time to time is a good habit
 
@@ -85,7 +85,8 @@ These are the same as `mvn test`.
 So if your code passed `mvn test` in your machine, 
 it’s highly likely that it will pass in github. Nevertheless 
 you should make sure that you see a green tick mark or a message 
-saying “All Checks Have Passed”. 
+saying “All Checks Have Passed”,
+![like this:](https://photos.app.goo.gl/eqPuiwHorqwJShgA7)
 
 If your test cases are failing, click on the link which says `details` and find out what is causing the issue or which test case is not passing. Once you have identified that, close the pull request, fix the errors, and raise another pull request.
 **Do not merge the pull request.**
