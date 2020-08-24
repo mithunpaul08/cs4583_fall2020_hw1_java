@@ -96,10 +96,14 @@ click on the link which says `details` and find out what is causing the issue or
 
 Your instructor will grade the code off this pull request. 
 Pull requests submitted after the deadline won’t be considered.
+You don't have to submit the code in D2l. Note that you still have to submit the answers to qns 1 to 4 in D2l.
 
 # Grading
+
 
 Qn5 of this assignment will be graded primarily on their ability to pass the tests that
 have been provided to you on github after the pull request.
 Assignments that pass all, and with the corresponding code implementing the correct logic, will receive at least 95% of the
-possible points. Rest of the points will be dependant on the readability and quality of the code.
+possible points.
+
+To get the remaining of the points, your code will be checked for things like readability and code quality.
