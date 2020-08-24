@@ -88,7 +88,10 @@ you should make sure that you see a green tick mark or a message
 saying “All Checks Have Passed”,
 ![like this:](travis.png)
 
-If your test cases are failing, click on the link which says `details` and find out what is causing the issue or which test case is not passing. Once you have identified that, close the pull request, fix the errors, and raise another pull request.
+If your test cases are failing, you will get an error message like this.
+![like this:](travis_fail.png)
+
+click on the link which says `details` and find out what is causing the issue or which test case is not passing. Once you have identified that, close the pull request, fix the errors, and raise another pull request.
 **Do not merge the pull request.**
 
 Your instructor will grade the code off this pull request. 
