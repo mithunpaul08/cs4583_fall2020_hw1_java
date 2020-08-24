@@ -5,7 +5,7 @@ you expect to use for this assignment.
 Minimally, you should install:
 
 * [git](https://git-scm.com/downloads)
-* [Java](https://www.java.com/en/)8 or higher)
+* [Java](https://www.java.com/en/)(8 or higher)
 * [Maven](https://maven.apache.org/)
 
 # Check out a new branch
